@@ -11,10 +11,10 @@ public class diagonalSumCalculating {
 
             totalSum+= multiArray[i][i] ;   // i==j
 
-            if (i!=multiArray.length-i-1){  // i+j = n -- j = n-i-1
+            if (i!=multiArray.length-i-1){  // i+j = n // j = n-i-1
                  totalSum+=multiArray[i][multiArray.length-i-1] ;
              }
         }
-        System.out.println("Total Primary & Secondary Diagonal Sum Is : "+totalSum);
+        System.out.println("Total Primary and Secondary Diagonal Sum Is : "+totalSum);
     }
 }
