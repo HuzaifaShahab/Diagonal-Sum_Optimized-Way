@@ -6,7 +6,7 @@ public class diagonalSumCalculating {
                            {13,14,15,16}} ;
 
         int totalSum = 0 ;
-        // Optimized Way In terms of time complexity
+        // Optimized Way In terms of time complexity // Single Loop
         for (int i=0 ; i<multiArray.length ; i++){
 
             totalSum+= multiArray[i][i] ;   // i==j
